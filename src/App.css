@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;1,200&display=swap");
+
+body {
+  background-color: #f0fafb;
+  font-family: "Kanit", sans-serif;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.app-banner {
+  position: absolute;
+  background-image: url(images/bg-header-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #5da5a4;
+  background-size: cover;
+  top: 0;
+  height: 150px;
+  width: 100%;
+}
+
+.job-card,
+.filter-card {
+  box-shadow: #04696731 0px 25px 50px -12px;
+}
+
+.container-items {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  text-align: left;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-items {
+    max-width: 100%; /* set maximum width to 100% on smaller screens */
+    padding: 0 20px; /* reduce padding on smaller screens */
+  }
+}
